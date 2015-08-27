@@ -14,9 +14,11 @@
 		1CB4BF661B8720310059FAD0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB4BF651B8720310059FAD0 /* Default-568h@2x.png */; };
 		1CB4BF6A1B87205B0059FAD0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4BF681B87205B0059FAD0 /* MainViewController.m */; };
 		1CB4BF6B1B87205B0059FAD0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB4BF691B87205B0059FAD0 /* MainViewController.xib */; };
-		1CB4BF6F1B8721040059FAD0 /* DaiDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4BF6E1B8721040059FAD0 /* DaiDebugLog.m */; };
-		1CB4BF721B8721360059FAD0 /* DaiDebugLogWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4BF711B8721360059FAD0 /* DaiDebugLogWindow.m */; };
-		1CB4BF751B87214A0059FAD0 /* DaiDebugLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4BF741B87214A0059FAD0 /* DaiDebugLogViewController.m */; };
+		1CFE6E801B9016B7009F56C6 /* UIView+DaiDebugLogEasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE6E7F1B9016B7009F56C6 /* UIView+DaiDebugLogEasyFrame.m */; };
+		1CFE6E831B9016F2009F56C6 /* DaiDebugLogViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE6E821B9016F2009F56C6 /* DaiDebugLogViewHelper.m */; };
+		1CFE6E8B1B901712009F56C6 /* DaiDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE6E861B901712009F56C6 /* DaiDebugLog.m */; };
+		1CFE6E8C1B901712009F56C6 /* DaiDebugLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE6E881B901712009F56C6 /* DaiDebugLogViewController.m */; };
+		1CFE6E8D1B901712009F56C6 /* DaiDebugLogWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE6E8A1B901712009F56C6 /* DaiDebugLogWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +45,16 @@
 		1CB4BF671B87205B0059FAD0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		1CB4BF681B87205B0059FAD0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		1CB4BF691B87205B0059FAD0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		1CB4BF6D1B8721040059FAD0 /* DaiDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDebugLog.h; sourceTree = "<group>"; };
-		1CB4BF6E1B8721040059FAD0 /* DaiDebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDebugLog.m; sourceTree = "<group>"; };
-		1CB4BF701B8721360059FAD0 /* DaiDebugLogWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDebugLogWindow.h; sourceTree = "<group>"; };
-		1CB4BF711B8721360059FAD0 /* DaiDebugLogWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDebugLogWindow.m; sourceTree = "<group>"; };
-		1CB4BF731B87214A0059FAD0 /* DaiDebugLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDebugLogViewController.h; sourceTree = "<group>"; };
-		1CB4BF741B87214A0059FAD0 /* DaiDebugLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDebugLogViewController.m; sourceTree = "<group>"; };
+		1CFE6E7E1B9016B7009F56C6 /* UIView+DaiDebugLogEasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DaiDebugLogEasyFrame.h"; sourceTree = "<group>"; };
+		1CFE6E7F1B9016B7009F56C6 /* UIView+DaiDebugLogEasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DaiDebugLogEasyFrame.m"; sourceTree = "<group>"; };
+		1CFE6E811B9016F2009F56C6 /* DaiDebugLogViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDebugLogViewHelper.h; sourceTree = "<group>"; };
+		1CFE6E821B9016F2009F56C6 /* DaiDebugLogViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDebugLogViewHelper.m; sourceTree = "<group>"; };
+		1CFE6E851B901712009F56C6 /* DaiDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDebugLog.h; sourceTree = "<group>"; };
+		1CFE6E861B901712009F56C6 /* DaiDebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDebugLog.m; sourceTree = "<group>"; };
+		1CFE6E871B901712009F56C6 /* DaiDebugLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDebugLogViewController.h; sourceTree = "<group>"; };
+		1CFE6E881B901712009F56C6 /* DaiDebugLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDebugLogViewController.m; sourceTree = "<group>"; };
+		1CFE6E891B901712009F56C6 /* DaiDebugLogWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaiDebugLogWindow.h; sourceTree = "<group>"; };
+		1CFE6E8A1B901712009F56C6 /* DaiDebugLogWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaiDebugLogWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,14 +138,34 @@
 		1CB4BF6C1B8720E00059FAD0 /* DaiDebugLog */ = {
 			isa = PBXGroup;
 			children = (
-				1CB4BF6D1B8721040059FAD0 /* DaiDebugLog.h */,
-				1CB4BF6E1B8721040059FAD0 /* DaiDebugLog.m */,
-				1CB4BF701B8721360059FAD0 /* DaiDebugLogWindow.h */,
-				1CB4BF711B8721360059FAD0 /* DaiDebugLogWindow.m */,
-				1CB4BF731B87214A0059FAD0 /* DaiDebugLogViewController.h */,
-				1CB4BF741B87214A0059FAD0 /* DaiDebugLogViewController.m */,
+				1CFE6E7D1B9016B7009F56C6 /* Utility */,
+				1CFE6E841B901712009F56C6 /* Core */,
 			);
 			path = DaiDebugLog;
+			sourceTree = "<group>";
+		};
+		1CFE6E7D1B9016B7009F56C6 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1CFE6E811B9016F2009F56C6 /* DaiDebugLogViewHelper.h */,
+				1CFE6E821B9016F2009F56C6 /* DaiDebugLogViewHelper.m */,
+				1CFE6E7E1B9016B7009F56C6 /* UIView+DaiDebugLogEasyFrame.h */,
+				1CFE6E7F1B9016B7009F56C6 /* UIView+DaiDebugLogEasyFrame.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1CFE6E841B901712009F56C6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1CFE6E851B901712009F56C6 /* DaiDebugLog.h */,
+				1CFE6E861B901712009F56C6 /* DaiDebugLog.m */,
+				1CFE6E871B901712009F56C6 /* DaiDebugLogViewController.h */,
+				1CFE6E881B901712009F56C6 /* DaiDebugLogViewController.m */,
+				1CFE6E891B901712009F56C6 /* DaiDebugLogWindow.h */,
+				1CFE6E8A1B901712009F56C6 /* DaiDebugLogWindow.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,12 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB4BF721B8721360059FAD0 /* DaiDebugLogWindow.m in Sources */,
+				1CFE6E8C1B901712009F56C6 /* DaiDebugLogViewController.m in Sources */,
+				1CFE6E801B9016B7009F56C6 /* UIView+DaiDebugLogEasyFrame.m in Sources */,
+				1CFE6E8B1B901712009F56C6 /* DaiDebugLog.m in Sources */,
+				1CFE6E831B9016F2009F56C6 /* DaiDebugLogViewHelper.m in Sources */,
 				1CB4BF451B8720090059FAD0 /* AppDelegate.m in Sources */,
+				1CFE6E8D1B901712009F56C6 /* DaiDebugLogWindow.m in Sources */,
 				1CB4BF6A1B87205B0059FAD0 /* MainViewController.m in Sources */,
 				1CB4BF421B8720090059FAD0 /* main.m in Sources */,
-				1CB4BF751B87214A0059FAD0 /* DaiDebugLogViewController.m in Sources */,
-				1CB4BF6F1B8721040059FAD0 /* DaiDebugLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +447,7 @@
 				1CB4BF611B8720090059FAD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CB4BF621B8720090059FAD0 /* Build configuration list for PBXNativeTarget "DaiDebugLogTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +456,7 @@
 				1CB4BF641B8720090059FAD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

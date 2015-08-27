@@ -22,8 +22,8 @@
 #pragma mark - class method
 
 + (void)show {
-    [self backendDebugLogWindow].rootViewController = [self debugLogViewController];
-    [[self backendDebugLogWindow] makeKeyAndVisible];
+    [self debugLogWindow].rootViewController = [self debugLogViewController];
+    [[self debugLogWindow] makeKeyAndVisible];
 }
 
 + (void)addLog:(NSString *)log {
@@ -32,12 +32,12 @@
 
 #pragma mark - runtime objects
 
-+ (DaiDebugLogWindow *)backendDebugLogWindow {
++ (DaiDebugLogWindow *)debugLogWindow {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        DaiDebugLogWindow *backendDebugLogWindow = [DaiDebugLogWindow new];
-        backendDebugLogWindow.eventDelegate = (id <DaiDebugLogWindowDelegate>)self;
-        objc_setAssociatedObject(self, _cmd, backendDebugLogWindow, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        DaiDebugLogWindow *debugLogWindow = [[DaiDebugLogWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        debugLogWindow.eventDelegate = (id <DaiDebugLogWindowDelegate>)self;
+        objc_setAssociatedObject(self, _cmd, debugLogWindow, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     });
     return objc_getAssociatedObject(self, _cmd);
 }
